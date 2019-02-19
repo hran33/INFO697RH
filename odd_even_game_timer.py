@@ -5,16 +5,16 @@ import time
 score = 0
 count = 0
 
-display.scroll('If you see an even number, press button A')
-display.show(Image.ARROW_W)
-sleep(3000)
+#display.scroll('If you see an even number, press button A')
+#display.show(Image.ARROW_W)
+#sleep(3000)
 
-display.scroll('If you see an odd number, press button B')
-display.show(Image.ARROW_E)
-sleep(3000)
+#display.scroll('If you see an odd number, press button B')
+#display.show(Image.ARROW_E)
+#sleep(3000)
 
-display.scroll('To exit and see your score, shake!')
-display.scroll('Start!')
+#display.scroll('To exit and see your score, shake!')
+#display.scroll('Start!')
 
 num = random.randint(1, 100)
 display.show(str(num))
