@@ -52,7 +52,7 @@ while True:
 	    mylcd.lcd_display_string("T:"+str(i)+"s",2,8)
 	    time.sleep(1)
 	    if pin1.value == 1: break
-	mylcd.lcd_display_string("Bu", 1)
+	mylcd.lcd_display_string(" "*6,2,8)
     if pin0.value == 1:
         mylcd.lcd_clear()
         mylcd.lcd_display_string("RESETING..",1)   
